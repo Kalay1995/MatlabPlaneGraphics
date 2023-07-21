@@ -29,7 +29,7 @@ fig.UserData.firstPerson = false; %do we start in 1st person view, or not?
 resetPositionOnBounds = true; %keeps the plane in the region with the matlab logo ground.
 
 hold on
-fig.Position = [600 600 1500 1200];
+fig.Position = [0 0 1500 1200];
 %Disable axis viewing, don't allow axes to clip the plane, turn on
 %perspective mode.
 fig.Children.Visible = 'off';
